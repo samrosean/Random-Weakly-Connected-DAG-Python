@@ -12,8 +12,8 @@ of an adjacency matrix will have connections.
 
 The algorithm then consists of 3 steps. 
 
-1. Create a random spanning tree of a complete graph of n vertices using a random walk. (https://www.cs.cmu.edu/~15859n/RelatedWork/RandomTrees-Wilson.pdf
+1. Create a random spanning tree of a complete graph of n vertices using a random walk.
 
 2. Direct the random tree so that each edge only connects from an i to a j such i < j.
 
-3. Randomly add edges to the upper triangle through a poison process until the total number of edges is equal to m.
+3. Randomly add edges to the upper triangle randomly until the total number of edges is equal to m.
