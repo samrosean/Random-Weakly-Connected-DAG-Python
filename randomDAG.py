@@ -32,7 +32,7 @@ The algorithm then consists of 3 steps.
 
 '''
 
-def randomDAG(size = 10, connections = 20)
+def randomDAG(size = 10, connections = 20):
 
     ## since a DAG can only have connections in the upper right traingle, this creates an upper limit on the amount of edges which it can have.
     if connections > ((size*(size-1))/2):
