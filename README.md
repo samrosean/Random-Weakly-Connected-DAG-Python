@@ -7,7 +7,7 @@ Create a random weakly-connected Directed Acyclic Simple Graph on n nodes and m 
 This algorithm takes advantage of two properties of Directed Acyclic Graphs and of weakly-connected graphs respectively.
 
 1. Directed Acyclic Graphs have a topological ordering. Since Directed Acyclic Graphs can be topologically sorted so that no node i has a path to a node j where i > j, then only the upper triangle
-of an adjacency matrix will have connections.
+of an adjacency matrix will have non-zero values.
 
 2. Weakly Connected Graphs have a minimal spanning tree.
 
