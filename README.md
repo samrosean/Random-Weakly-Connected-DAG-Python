@@ -1,4 +1,4 @@
-# Random Weakly-Connected Directed Acyclic Graph
+# Generating Random Weakly-Connected Directed Acyclic Graphs
 Contact: Samuel Rosean - samrosean@einsteinmed.edu
 
 ----
