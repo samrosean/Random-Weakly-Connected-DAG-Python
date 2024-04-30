@@ -13,7 +13,7 @@ of an adjacency matrix will have non-zero values.
 
 --- ---
 
-The algorithm then consists of 3 steps. 
+The algorithm consists of 3 steps. 
 
 1. Create a random spanning tree of a complete graph of n vertices using a random walk.
 
